@@ -2,7 +2,7 @@ from tempfile import TemporaryDirectory
 import argparse
 from pathlib import Path
 import zipfile
-from typing import NamedTuple, Callable
+from typing import NamedTuple, Callable, BinaryIO
 from collections.abc import Generator
 from enum import StrEnum, Enum
 import sys
