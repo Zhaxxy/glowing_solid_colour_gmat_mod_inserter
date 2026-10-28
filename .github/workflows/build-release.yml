@@ -31,7 +31,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --clean --onefile --noconsole --add-data "icon.ico;." --icon="icon.ico" --name glowing_solid_colour_gmat_mod_inserter gui.py
+          pyinstaller --clean --onefile --noconsole --add-data "icon.ico;." --add-data "lbp3ps4_glowing_solid_colour_gmat.json;." --icon="icon.ico" --name glowing_solid_colour_gmat_mod_inserter gui.py
 
       - name: Create GitHub Release
         env:
